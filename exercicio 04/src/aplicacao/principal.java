@@ -11,7 +11,7 @@ public class principal {
 		System.out.println("Digite sua idade:");
 		idade = entrada.nextInt();
 		
-		if(idade>18 || idade < 67) {
+		if(idade>18 && idade < 67) {
 			System.out.println("pode doar sangue");
 		}else {
 			System.out.println("não pode doar sangue");
